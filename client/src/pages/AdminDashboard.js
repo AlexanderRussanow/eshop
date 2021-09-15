@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, Container, Row } from 'react-bootstrap'
+import { Button, Container, Row } from 'react-bootstrap'
 import CreateBrand from '../modals/CreateBrand'
 import CreateDevice from '../modals/CreateDevice'
 import CreateType from '../modals/CreateType'

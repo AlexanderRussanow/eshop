@@ -5,6 +5,7 @@ import DeviceStore from './store/deviceStore';
 import UserStore from './store/userStore';
 
 export const Context = React.createContext(null)
+console.log(process.env.REACT_APP_API_URL)
 
 ReactDOM.render(
    <Context.Provider value={{
