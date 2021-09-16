@@ -20,7 +20,7 @@ const Auth = observer(() => {
       try {
          let data
          if (isLogin) {
-            data = await login(email, password)  
+            data = await login(email, password)
          } else {
             data = await registration(email, password)
          }
@@ -28,7 +28,7 @@ const Auth = observer(() => {
          user.setIsAuth(true)
          console.log(user)
       } catch (e) {
-         console.log(e)
+         alert(e.response.data.message)
       }
    }
 
